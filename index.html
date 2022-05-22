@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/csr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+</head>
+<body>
+    
+<header class="fixed-top">
+    <nav class="navbar navbar-default navbar-expand-lg " style="padding: 20px 1rem 20px 1rem;">
+        <div class="container">
+            <a class="navbar-brand load-hidden widget" href="/"><img src="assets/img/logo.svg" width="40" /></a>
+
+            <div class="mobileonly-items" style="display: flex;">
+                <div class="load-hidden widget">
+                    <a class="linkText align-baseline" href="https://facebook.com/fb.proglearn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="pl-icon" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg> @fb.proglearn                           
+                    </a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item load-hidden me-4 widget">
+                        <a class="linkText" href="#" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                            Installation Guide
+                        </a>
+                    </li>
+                    <li class="nav-item load-hidden me-4 widget">
+                        <a class="linkText" href="#teams">
+                            Our Teams
+                        </a>
+                    </li>
+                    <li class="nav-item load-hidden widget">
+                        <a class="linkText" href="">
+                            About
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item load-hidden widget">
+                        <a class="linkText align-baseline" href="https://facebook.com/fb.proglearn" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="pl-icon" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg> @fb.proglearn                           
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="hero mt-2">
+        <div class="container-xxl">
+            <div class="col-md-8 mx-auto text-center">
+                <img src="assets/img/logo-3d.jpg" class="d-block mx-auto mb-4" width="200" data-cursor="-sm" data-magnetic data-cursor="-opaque" alt="Logo"/>
+                <h1 class="pb-2">Discover a new way of learning programming</h1>
+                <p class="lead mb-4">ProgLearn is a eLearning platform that helps you <br> learn web development and get skills.</p>
+
+                <div class="d-flex flex-column col-md-6 col-lg-6 align-items-md-stretch mx-auto justify-content-md-center gap-3">
+                    <a href="" class="btn pl-btn btn-primary d-inline-block v-align-middle" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                        <img src="assets/img/download.svg" class="me-1 bi text-white" alt="" />
+                        Download
+                    </a>
+                </div>
+                <p class="mt-2 text-black-50 small">Currently v2.0.3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl mb-5 pb-5 text-center">
+        <img src="assets/img/uiElement-d.png" class="img-fluid desktop-img element-ui-img pe-none" alt="UI Elements" /><br />
+        <img src="assets/img/ss2.png" class="img-fluid mobile-img element-ui-img pe-none" alt="UI Elements" />
+    </div>
+
+    <div class="p-3 p-md-5 m-md-3 text-center bg-transparent">
+        <div class="container p-lg-5 mx-auto my-5">
+            <div class="text-center">
+                <h2 class="display-5 pl-title">Why use <span class="proglearn-text">ProgLearn?</span></h2>
+                <p class="lead">See why ProgLearn is the best choice for your next app to download.</p>
+            </div>
+            <div class="row mt-3 pt-3 p-3">
+                <div class="col-lg-4 col-md-6 mb-3 mb-md-3 mb-lg-0" data-cursor-text="Lessons">
+                    <div class="text-center">
+                        <div class="icon" >
+                            <img src="assets/img/flaticon/1.png" class="pe-none" width="120" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>3 Lessons</h3>
+                            <p>
+                                3 Simple and easy to learn modules that has everything a beginner needs to make web programs. Build with HTML, design with CSS, and program with JavaScript. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3 mb-md-3 mb-lg-0" data-cursor-text="Quizzes">
+                    <div class="text-center">
+                        <div class="icon">
+                            <img src="assets/img/flaticon/2.png" class="pe-none" width="120" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Quizzes</h3>
+                            <p>
+                                Refresh your knowledge, and master web programming with 3 special quizzes on HTML, CSS, and JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-md-0 mb-lg-0" data-cursor-text="Fast">
+                    <div class="text-center">
+                        <div class="icon">
+                            <img src="assets/img/flaticon/3.png" class="pe-none" width="120" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Fast Learning</h3>
+                            <p>
+                                Learning web Programming is right at your fingertips. Quick to navigate and easy to find everything you need. Download our app now, It’s as easy as that!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pl-container-hero">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+            <div class="row center-hero flex-lg-row-reverse flex-md-row-reverse">
+                <div class="col-md-5 p-lg-7 mx-auto my-5">
+                    <h1 class="typography-section-headline" data-cursor="-opaque" data-cursor="-lg">Interactive. Fast. Ease.</h1>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/img/ss4.png" class="d-block mx-lg-auto img-fluid pe-none" width="700" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pl-container-hero">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+            <div class="row center-hero">
+                <div class="col-md-5 p-lg-7 mx-auto my-5">
+                    <h1 class="typography-section-headline" data-cursor="-opaque" data-cursor="-lg">Pro, Simple, and Modern Design</h1>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/img/ss3.png" class="img-fluid pe-none" width="700" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <div class="container-xxl mb-5 pb-5" id="teams" style="padding-top: 60px;">
+        <div class="col-lg-7 mx-auto text-center">
+            <div>
+                <h2 class="display-5 pl-title pb-4">Meet Our Teams</h2>
+                <a href="team.html" data-cursor-text="View">
+                    <img src="assets/img/dev.gif" class="img-fluid" alt="teams" />
+                </a>
+                <!-- <a href="team.html" data-cursor-text="View">
+                    <img src="assets/img/developers-m.png" class="img-fluid mobile-img p-2 pe-none" data-cursor-text="View" alt="teams">
+                </a> -->
+            </div>
+        </div>
+    </div>
+    
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="assets/img/logo.svg" class="pe-none" width="30" height="30" alt="" />
+            </a>
+            <span class="mb-md-0 text-muted">&copy; 2022 Intelliware</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3" data-cursor="-color-primary">
+                <a class="text-muted" href="https://facebook.com/fb.proglearn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="pl-icon" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                        />
+                    </svg>
+                </a>
+            </li>
+            <li class="ms-3" data-cursor="-color-primary">
+                <a class="text-muted" href="mailto:intelliware.company@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                        />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </footer>    
+</main>
+
+<!-- Modal Download -->
+<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="download" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #eef1f6; padding: 29px; border-radius: 33px;">
+            <div class="modal-body">
+                <div class="pb-3">
+                    <img src="assets/img/logo.svg" />
+                    <button type="button" class="btn-close btn-remove-outline float-end close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="content mx-auto">
+                    <p class="left">
+                        ProgLearn is available only for Android devices. <br><br>
+                        <strong>
+                            Installation Guide
+                        </strong><br>
+                        - Download the apk file first <br>
+                        - Open the apk file <br>
+                        - Install the apk file <br>
+                        - Open the app and good to go   <br>
+
+                    </p>
+                    <a href="" class="btn pl-btn btn-primary d-inline-block v-align-middle" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                        <img src="assets/img/download.svg" class="me-1 bi text-white" alt="" />
+                        Get the APK File
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="assets/js/csr_bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
