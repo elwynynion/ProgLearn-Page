@@ -1,17 +1,23 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0-beta1",
-    "confetti-js": "^0.0.18"
+    "confetti-js": "^0.0.18",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0"
   },
   "name": "htdocs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch sass/main.scss assets/css/style.css"
+    "sass": "sass --watch sass/main.scss assets/css/bootstrap.css",
+    "minify-css": "postcss assets/css/bootstrap.css > assets/css/style.css"
   },
   "keywords": [],
   "author": "elwyn",
   "license": "ISC",
   "description": "",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "cssnano": "^5.1.9"
+  }
 }
