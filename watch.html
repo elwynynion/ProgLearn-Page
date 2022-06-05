@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to ProgLearn</title>
+    <meta property='og:title'  content="ProgLearn">
+    <meta name='twitter:title' content="ProgLearn">
+
+    <meta name="description" content="ProgLearn is a application for learning programming.">
+    <meta property="og:image"  content="assets/img/meta_image.png">
+    <meta name="twitter:image" content="assets/img/meta_image.png">
+    
+    <link rel="shortcut icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/css/csr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+</head>
+<body>
+    
+
+<header class="fixed-top">
+    <nav class="navbar navbar-default navbar-expand-lg " style="padding: 20px 1rem 20px 1rem;">
+        <div class="container">
+            <a class="navbar-brand load-hidden widget" href="/"><img src="assets/img/logo.svg" loading="lazy" width="40" /></a>
+
+            <div class="mobileonly-items" style="display: flex;">
+                <div class="load-hidden widget">
+                    <a class="linkText align-baseline" href="https://facebook.com/fb.proglearn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="pl-icon" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg> @fb.proglearn                           
+                    </a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item load-hidden me-4 widget">
+                        <a class="linkText" href="./">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item load-hidden me-4 widget">
+                        <a class="linkText" href="#" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                            Installation Guide
+                        </a>
+                    </li>
+                    <li class="nav-item load-hidden me-4 widget">
+                        <a class="linkText" href="team.html">
+                            Our Team
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item load-hidden widget">
+                        <a class="linkText align-baseline" href="https://facebook.com/fb.proglearn" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="pl-icon" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg> @fb.proglearn                           
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header><br><br><br>
+
+<main class="mt-2">
+    <section class="container py-5" id="watch">
+        <div class="text-center">
+            <img src="assets/img/expo_soon.png" class="img-fluid" style="border-radius: 32px;" alt="">
+            <p class="m-2 text-black-50">Edited by @elwynynion</p>
+        </div>
+    </section>
+
+    <section class="container py-5" id="watch">
+        <h1>Videos</h1>
+        <p>All Video entry will be uploaded here.</p>
+        <br>
+        <div class="text-center">
+            <a href="#" data-cursor-text="View" data-bs-toggle="modal" data-bs-target="#watchModal">
+                <video muted autoplay loop class="border border-1" style="width: 100%;border-radius: 32px;">
+                    <source src="assets/entry1.mp4" type="video/mp4">
+                    <!-- <source src="movie.ogg" type="video/ogg"> -->
+                    Your browser does not support the video tag.
+                </video>
+            </a>
+            <p class="m-2 text-black-50">Edited by @elwynynion</p>
+        </div>
+    </section>
+</main>
+
+
+<div class="modal fade border-0" id="watchModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog modal-xl border-0">
+        <div class="modal-content" style="background: #eef1f6;padding: 29px; border-radius: 33px;">
+            <div class="modal-body">
+                <div class="pb-3">
+                    <img src="assets/img/logo.svg" loading="lazy"/>
+                    <button type="button" class="btn-close btn-remove-outline float-end close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div>
+                    <video controls autoplay muted class="border border-1" style="width: 100%;border-radius: 12px;" data-cursor-text="View">
+                        <source src="assets/entry1.mp4" type="video/mp4" />
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Download -->
+<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="download" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #eef1f6; padding: 29px; border-radius: 33px;">
+            <div class="modal-body">
+                <div class="pb-3">
+                    <img src="assets/img/logo.svg" loading="lazy"/>
+                    <button type="button" class="btn-close btn-remove-outline float-end close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="content mx-auto">
+                    <p class="left">
+                        ProgLearn is available only for Android devices. <br><br>
+                        <strong>
+                            Installation Guide
+                        </strong><br>
+                        - Download the apk file first <br>
+                        - Open the apk file <br>
+                        - Install the apk file <br>
+                        - Open the app and good to go   <br>
+
+                    </p>
+                    <a href="" class="btn pl-btn btn-primary d-inline-block v-align-middle" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                        <img src="assets/img/download.svg" class="me-1 bi text-white" alt="" />
+                        Get the APK File
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/csr_bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -16,12 +16,13 @@
     <link rel="shortcut icon" href="assets/img/logo.png" />
     <link rel="stylesheet" href="assets/css/csr.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 
 </head>
 <body>
     
+
 <header class="fixed-top">
     <nav class="navbar navbar-default navbar-expand-lg " style="padding: 20px 1rem 20px 1rem;">
         <div class="container">
@@ -50,8 +51,8 @@
                         </a>
                     </li>
                     <li class="nav-item load-hidden widget">
-                        <a class="linkText" href="">
-                            About
+                        <a class="linkText" href="watch.html">
+                            Watch Videos
                         </a>
                     </li>
                 </ul>
@@ -71,7 +72,7 @@
 
 <main class="main">
     <div class="hero mt-2">
-        <div class="container-xxl">
+        <div class="container">
             <div class="col-md-8 mx-auto text-center">
                 <img src="assets/img/logo-3d.jpg" class="d-block mx-auto mb-4" width="200" data-cursor="-sm" loading="lazy" data-magnetic data-cursor="-opaque" alt="Logo"/>
                 <h1 class="pb-2" data-cursor="-opaque" data-cursor="-lg">
@@ -80,11 +81,18 @@
                     </span>
                     a new way of learning programming
                 </h1>
-                <p class="lead mb-4">ProgLearn is an eLearning platform that helps you learn web development and gain skills..</p>
+                <p class="lead mb-4">ProgLearn is an eLearning platform that helps you learn web development and gain skills.</p>
 
-                <div class="d-flex flex-column col-md-6 col-lg-6 align-items-md-stretch mx-auto justify-content-md-center gap-3">
-                    <a href="" class="btn pl-btn btn-primary d-inline-block v-align-middle" data-bs-toggle="modal" data-bs-target="#downloadModal">
-                        <img src="assets/img/download.svg" class="me-1 bi text-white" alt="" loading="lazy"/>
+                <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-md-center gap-3 mb-4">
+                    <div class="d-inline-block v-align-middle fs-5">
+                        <a href="#" class="btn watch-btn d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#watchModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                            </svg>
+                            Watch video
+                        </a>
+                    </div>                    
+                    <a href="#download" class="btn pl-btn btn-primary d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#downloadModal">                        
                         Download
                     </a>
                 </div>
@@ -174,8 +182,6 @@
         </div>
     </div>
     
-    
-    
 
     <div class="container-xxl mb-5 pb-5" id="teams" style="padding-top: 60px;">
         <div class="col-lg-7 mx-auto text-center">
@@ -254,9 +260,60 @@
     </div>
 </div>
 
+<div class="modal fade border-0" id="watchModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog modal-xl border-0">
+        <div class="modal-content" style="background: #eef1f6;padding: 29px; border-radius: 33px;">
+            <div class="modal-body">
+                <div class="pb-3">
+                    <img src="assets/img/logo.svg" loading="lazy"/>
+                    <button type="button" class="btn-close btn-remove-outline float-end close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- <div class="wistia_responsive_padding mt-3" style="padding: 56.25% 0 0 0; position: relative;">
+                    <div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;">
+                        <iframe
+                            src="https://fast.wistia.net/embed/iframe/ykxb2ttbp2?videoFoam=true"
+                            title="Latest Video"
+                            allow="autoplay; fullscreen"
+                            allowtransparency="true"
+                            frameborder="0"
+                            scrolling="no"
+                            class="wistia_embed"
+                            name="wistia_embed"
+                            msallowfullscreen
+                            width="100%"
+                            height="100%"
+                            style="border-radius: 32px;"
+                        ></iframe>
+                    </div>
+                </div> -->
+                <iframe
+                    width="100%"
+                    height="500"
+                    src="https://www.youtube.com/embed/jp75tA4oaoI?controls=0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="border-radius: 32px;"
+                ></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$('video').each(function(){
+    if ($(this).is(":in-viewport")) {
+        $(this)[0].play();
+    } else {
+        $(this)[0].pause();
+    }
+})
+</script>
 
 <script src="assets/js/typeit.min.js"></script>
 <script>new TypeIt("#heroh1",{lifeLike:!1,speed:0,afterComplete:function(e){e.destroy()}}).delete(4,{instant:!0}).type("E").pause(344).type("x").pause(160).type("p").pause(152).type("l").pause(176).type("o").pause(104).type("r").pause(48).type("e").pause(1496).delete(1).pause(96).delete(1).pause(88).delete(1).pause(64).delete(1).pause(80).delete(1).pause(80).delete(1).pause(64).delete(1).pause(472).type("D").pause(200).type("i").pause(144).type("s").pause(250).type("c").pause(126).type("o").pause(312).type("v").pause(136).type("e").pause(72).type("r").go();</script>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
 <script src="assets/js/csr_bundle.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
