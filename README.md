@@ -16,10 +16,10 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone the repository
-$ https://github.com/elwynynion/ProgLearn-Landing-Page
+$ https://github.com/elwynynion/ProgLearn-Page
 
 # Move into the repository
-$ cd ProgLearn-Landing-Page
+$ cd ProgLearn-Page
 
 # Remove the current origin repository
 $ git remote remove origin
