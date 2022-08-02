@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/elwynynion/proglearn/main/assets/appIcon.png" height="100" width="100" />
 </p>
 
-<h3 align="center">A minimal portfolio template for Developers!</h3><br/>
+<h3 align="center">ProgLearn Official Website</h3><br/>
 
 <p align="center">
   <img src="https://github.com/elwynynion/ProgLearn-Landing-Page/blob/main/assets/img/screenshot.gif" />
