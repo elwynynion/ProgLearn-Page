@@ -8,6 +8,11 @@
   <img src="https://github.com/elwynynion/ProgLearn-Landing-Page/blob/main/assets/img/screenshot.gif" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elwynynion/elwynynion/main/badge/elwyn.svg" />
+  <img src="https://raw.githubusercontent.com/elwynynion/elwynynion/main/badge/love.svg" />
+</p>
+
 ## Technologies used 🛠️
 - Bootstrap 5
 
